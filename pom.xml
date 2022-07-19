@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.statestreet.course</groupId>
 	<artifactId>ss-course-registration</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>ss-course-registration</name>
 	<description>State Street Course Registration</description>
 	<properties>

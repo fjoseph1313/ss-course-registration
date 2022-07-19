@@ -22,6 +22,12 @@ public class CourseRegistrationService implements CourseRegistration {
     @Autowired
     private CourseRepository courseRepository;
 
+    /**
+     *  FOR THE SAKE OF TIME, NO UNIT TEST HAS BEEN WRITTEN.
+     *  DB USED IS IN-MEMORY H2.
+     *  SPRING JPA USED FOR TRANSACTION MANAGEMENT.
+     */
+
     //HAPPY PATH : Assuming student does not exist. so NO collision while inserting a new entity.
     //WORST CASE -> Duplicate of name in the DB since the ID is studentID.
     @Override
